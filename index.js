@@ -6,7 +6,7 @@ function takeANumber(line, name){
 
 function takeANumer(line){
   
-  var currTicket = line[-1] + 1
+  var currTicket++
   
   return `You have ticket line ${}`
 }
