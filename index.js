@@ -5,10 +5,10 @@ function takeANumber(line, name){
 }
 
 function takeANumer(line){
-  line.push()
   
+  var currTicket = line.push(line[-1])
   
-  
+  return `You have ticket line ${}`
 }
 
 
