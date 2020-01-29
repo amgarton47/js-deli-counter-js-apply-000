@@ -8,7 +8,7 @@ var currTicket = 0
 
 function takeANumer(line){
   currTicket++
-  
+  line.push(currTicket)
   
   return `You have ticket line ${currTicket}`
 }
