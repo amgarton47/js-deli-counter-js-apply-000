@@ -4,9 +4,11 @@ function takeANumber(line, name){
   return `Welcome, ${name}. You are number ${line.length} in line.`
 }
 
+var currTicket 
+
 function takeANumer(line){
   
-  var currTicket++
+  currTicket++
   
   return `You have ticket line ${}`
 }
